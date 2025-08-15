@@ -42,6 +42,7 @@ def check_age(my_age):
         print("Okay! Go and buy a red wine!") 
 
 def euclidean():
+    print("*** euclidean() ***")
     #(2, 3) and (10, 8)
     x1 = 2
     y1 = 3
