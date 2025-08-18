@@ -1,6 +1,7 @@
+#Day 1: 30 Days of python programming
 #primitive data types
 name = "Carla"
-age = 39
+age = 29
 height = 5.01
 is_student = False
 
