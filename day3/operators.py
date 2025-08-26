@@ -88,3 +88,37 @@ print("Euclidean distance: ",my_eucl)
 """
 
 #Calculate the value of y (y = x^2 + 6x + 9). Try to use different x values and figure out at what x value y is going to be 0.
+
+#Find the length of 'python' and 'dragon' and make a falsy comparison statement.
+str1 = 'python'
+str2 = 'dragon'
+"""
+str_len1 = len(str1)
+str_len2 = len(str2)
+print(str1, ' chars: ', str(str_len1))
+print(str2, ' chars: ', str(str_len2))
+print(str(str_len1), 'is not', str(str_len1), str_len1 is not str_len2)
+"""
+
+#Use and operator to check if 'on' is found in both 'python' and 'dragon'
+"""
+print('\'on\' can be found in the words python and dragon')
+print('on' in str1 and 'on' in str2)
+"""
+
+#I hope this course is not full of jargon. Use in operator to check if jargon is in the sentence.
+my_sentence = "I hope this course is not full of jargon."
+print('This is our sentence: ')
+print(my_sentence)
+print('Can you see the word \'jargon\'?')
+is_jargon_found = 'jargon' in my_sentence
+print(is_jargon_found)
+
+#There is no 'on' in both dragon and python
+print("There is no \'on\' in both dragon and python.")
+print("Is this correct?")
+
+is_on_not_found = 'on' not in str1 and 'on' not in str2
+print(is_on_not_found)
+
+#Find the length of the text python and convert the value to float and convert it to string
