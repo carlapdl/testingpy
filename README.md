@@ -1,0 +1,3 @@
+# ✨ Testingpy ✨
+
+### Exploring Python programming
