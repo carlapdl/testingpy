@@ -92,9 +92,10 @@ print("Euclidean distance: ",my_eucl)
 #Find the length of 'python' and 'dragon' and make a falsy comparison statement.
 str1 = 'python'
 str2 = 'dragon'
-"""
+
 str_len1 = len(str1)
 str_len2 = len(str2)
+"""
 print(str1, ' chars: ', str(str_len1))
 print(str2, ' chars: ', str(str_len2))
 print(str(str_len1), 'is not', str(str_len1), str_len1 is not str_len2)
@@ -107,6 +108,7 @@ print('on' in str1 and 'on' in str2)
 """
 
 #I hope this course is not full of jargon. Use in operator to check if jargon is in the sentence.
+"""
 my_sentence = "I hope this course is not full of jargon."
 print('This is our sentence: ')
 print(my_sentence)
@@ -120,5 +122,104 @@ print("Is this correct?")
 
 is_on_not_found = 'on' not in str1 and 'on' not in str2
 print(is_on_not_found)
+"""
 
 #Find the length of the text python and convert the value to float and convert it to string
+"""
+print('word is: ', str1)
+to_str_len = str(str_len1)
+print('length as type: ', type(to_str_len), 'value: ', to_str_len)
+to_float_len = float(str_len1)
+print('length as type: ', type(to_float_len), 'value: ', to_float_len)
+"""
+
+#Even numbers are divisible by 2 and the remainder is zero. How do you check if a number is even or not using python?
+"""
+inpt_num = input("Give me a number, please: ")
+given_num = int(inpt_num)
+mod_given_num = given_num % 2
+
+if mod_given_num == 0 and inpt_num not in 'python':
+    print(inpt_num, ' is even and not in \'python\'.')
+else:
+    print('bye!')
+"""
+
+#Check if the floor division of 7 by 3 is equal to the int converted value of 2.7.
+"""
+print("*** Check floor division result of 7 and 3 ***")
+ans_floor_div = 7 // 3
+print('actual floor div: ', ans_floor_div)
+to_int_ans = int(ans_floor_div)
+print('converted to ', type(to_int_ans), ' = ', to_int_ans)
+
+if to_int_ans == 2.7:
+    print('answer is equal to 2.7')
+else:
+    print('answer is not equal to 2.7')
+"""
+
+#Check if type of '10' is equal to type of 10
+"""
+d_type1 = type('10')
+d_type2 = type(10)
+print('is ', d_type1, '\'10\'', ' = ', d_type2, str(10), '?: ', d_type1 is d_type2)
+"""
+
+#Check if int('9.8') is equal to 10
+"""
+str_num = '9.8'
+check_num = float(str_num)
+to_int_check_num = int(check_num)
+
+if(to_int_check_num == 10):
+    print(str_num, ' = 10')
+else:
+    print(str_num, ' not equal to 10')
+"""
+
+#Write a script that prompts the user to enter hours and rate per hour. Calculate pay of the person?
+"""
+print("*** How much is your salary? ***")
+inpt_hours = input("Enter number of work hours: ")
+inpt_rate = input("Enter rate per hour: ")
+
+num_hours = int(inpt_hours)
+num_rate = float(inpt_rate)
+
+salary = num_hours * num_rate
+
+print('Your Salary: ', str(salary))
+print('There you go, rich kid! :)')
+"""
+
+#Write a script that prompts the user to enter number of years. Calculate the number of seconds a person can live. Assume a person can live hundred years
+#1 year = 365.25 days = 31,557,600 seconds
+"""
+inpt_age= input("Enter your age: ")
+num_age = int(inpt_age)
+
+seconds_lived = num_age * 31557600
+
+print("WOW! You're alive for ", str(seconds_lived), 'seconds!')
+"""
+
+#Write a Python script that displays the following table
+#1 1 1 1 1
+#2 1 2 4 8
+#3 1 3 9 27
+#4 1 4 16 64
+#5 1 5 25 125
+
+num_list = []
+
+i = 1
+while i <= 5:
+    j = 1
+    num_list.append(j)
+    while len(num_list) < 4:
+        j = i * j
+        num_list.append(j)
+    print("#",str(i), num_list)
+    i += 1
+    num_list.clear()
