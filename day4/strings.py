@@ -201,3 +201,21 @@ print(f'\n radius = {radius}')
 print(f'\n pi = {pi}')
 print(f'\n area = {pi} * {radius} ** 2')
 print(f'\n The area of a circle with radius {radius} is {area} square meters.')
+
+#Make the following using string formatting methods:
+#8 + 6 = 14
+#8 - 6 = 2
+#8 * 6 = 48
+#8 / 6 = 1.33
+#8 % 6 = 2
+#8 // 6 = 1
+#8 ** 6 = 262144
+dig1 = 8
+dig2 = 6
+print(f'{dig1} + {dig2} = {dig1+dig2}')
+print(f'{dig1} - {dig2} = {dig1 - dig2}')
+print(f'{dig1} * {dig2} = {dig1 * dig2}')
+print(f'{dig1} / {dig2} = {dig1 / dig2}')
+print(f'{dig1} % {dig2} = {dig1 % dig2}')
+print(f'{dig1} // {dig2} = {dig1 // dig2}')
+print(f'{dig1} ** {dig2} = {dig1 ** dig2}')
