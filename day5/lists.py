@@ -157,7 +157,6 @@ total_age = 0
 for age_item in sorted_ages:
     total_age = total_age + age_item
 
-#print("Total Age: ", total_age)
 ave_age = round(total_age / total_items)
 print(f"Average Age: {ave_age}")
 print(f"Age Ranges: {max_age - min_age}")
